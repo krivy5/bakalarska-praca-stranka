@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Norbert Krivý - Bakalárska práca</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #1e1e1e;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+      border-radius: 8px;
+    }
+    header, footer {
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+      color: #ffffff;
+    }
+    a {
+      color: #bbb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    details {
+      margin-bottom: 20px;
+      border: 1px solid #444;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    summary {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    .summary-indicator {
+      display: inline-block;
+      margin-right: 10px;
+      transition: transform 0.3s ease;
+    }
+    details[open] .summary-indicator {
+      transform: rotate(90deg);
+    }
+    .section-content {
+      padding: 10px 20px;
+      background-color: #2c2c2c;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Analýza a modelovanie kognitívnych skreslení</h1>
+    </header>
+
+    <!-- Sekcia Základné informácie -->
+    <details open>
+      <summary>
+        <span class="summary-indicator">▶</span>
+        Základné informácie
+      </summary>
+      <div class="section-content">
+        <ul>
+          <li><strong>Meno študenta:</strong> Norbert Krivý</li>
+          <li><strong>Názov práce:</strong> Analýza a modelovanie kognitívnych skreslení</li>
+          <li><strong>Meno školiteľa:</strong> PhDr. Ing. Tomáš Gál, PhD.</li>
+          <li><strong>Kontakt na študenta:</strong> krivy5@uniba.sk</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Sekcia Zadanie -->
+    <details>
+      <summary>
+        <span class="summary-indicator">▶</span>
+        Zadanie
+      </summary>
+      <div class="section-content">
+        <h3>Anotácia</h3>
+        <p>
+			Bakalárska práca sa zaoberá analýzou a modelovaním kognitívnych skreslení. 
+			V práci budú identifikované, opísané a modelované vybrané kognitívne skreslenia, 
+			ktoré ovplyvňujú spracovanie percepciu informácií, ich vyhodnocovanie a rozhodovanie 
+			sa na základe nich. Práca zahŕňa teoretickú analýzu vybraných kognitívnych skreslení 
+			a ich klasifikáciu; tvorbu modelu kognitívneho skreslenia a implementáciu modelu 
+			v jazyku Python.
+		</p>
+        <h3>Cieľ</h3>
+        <p>
+			Cieľom práce je na základe vlastnej analýzy navrhnúť model kognitínych skreslení 
+			ľudí implementovateľný v umelých systémoch.
+		</p>
+      </div>
+    </details>
+
+    <!-- Sekcia Zdroje a odkazy -->
+    <details>
+      <summary>
+        <span class="summary-indicator">▶</span>
+        Zdroje a odkazy
+      </summary>
+      <div class="section-content">
+        <ul>
+          <li><a href="#" target="_blank">Zdroj 1</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Sekcia Materiály -->
+    <details>
+      <summary>
+        <span class="summary-indicator">▶</span>
+        Materiály
+      </summary>
+      <div class="section-content">
+        <h3>Už napísané texty</h3>
+        <p>Sem vložte časti už napísaných textov.</p>
+        <h3>Screenshoty</h3>
+        <p>Sem vložte screenshoty (napr. pomocou značky &lt;img&gt;):</p>
+        <img src="screenshot1.png" alt="Screenshot príkladu">
+        <h3>Zdrojové kódy</h3>
+        <p>Sem vložte odkazy na zdrojové kódy alebo príslušné súbory.</p>
+      </div>
+    </details>
+
+    <!-- Sekcia Týždenný denník -->
+    <details>
+      <summary>
+        <span class="summary-indicator">▶</span>
+        Týždenný denník
+      </summary>
+      <div class="section-content">
+        <details>
+          <summary>
+            <span class="summary-indicator">▶</span>
+            Týždeň 1 - (dátum)
+          </summary>
+          <div class="section-content">
+            <p>Popis vykonanej práce a poznámky z prvého týždňa.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <span class="summary-indicator">▶</span>
+            Týždeň 2 - (dátum)
+          </summary>
+          <div class="section-content">
+            <p>Popis vykonanej práce a poznámky z druhého týždňa.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <span class="summary-indicator">▶</span>
+            Týždeň 3 - (dátum)
+          </summary>
+          <div class="section-content">
+            <p>Popis vykonanej práce a poznámky z tretieho týždňa.</p>
+          </div>
+        </details>
+
+        <!-- Pridaj ďalšie týždne podľa potreby -->
+      </div>
+    </details>
+
+    <!-- Pätka stránky -->
+    <footer>
+      <p>&copy; 2025 Meno Priezvisko. Všetky práva vyhradené.</p>
+    </footer>
+  </div>
+</body>
+</html>
