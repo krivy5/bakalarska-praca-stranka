@@ -303,7 +303,17 @@
 	    Týždeň 8 - (7.4.2025 - 13.4.2025)
 	  </summary>
 	  <div class="section-content">
-	    <p>...</p>
+	    <p>
+		   	Tento týždeň som sa zameral na implementáciu nového druhu kognitívneho skreslenia pre hráča blackjacku.
+			Navrhol som hráča, ktorý pri rozhodovaní zohľadňuje históriu predchádzajúcich ťahov (availability heuristic bias) 
+		    	namiesto hry podľa optimálnej stratégie. Konkrétne sa hráč rozhoduje podľa zapamataných minulých hier – napr. ak si 
+		    	zapamätá, že v minulosti potiahnuť ďalšiu kartu pri súčte 15 prinieslo úspech, aplikuje rovnakú stratégiu aj nabudúce.
+			Upravil som kód modulu rozhodovania tak, aby si agent ukladal priebežné výsledky svojich ťahov a v prípade zhody súčtu 
+		    	kariet uplatňoval pamäťovo podmienenú voľbu. 
+		    <br><br>
+		    	Na budúci týždeň plánujem rozšíriť simulácie o ďalšie skreslenia a analyzovať 
+		    	ich kombinovaný vplyv na hru a ich úspešnosť a zároveň zanalyzovať doterajšie skreslenia a možné merateľné dáta.
+	    </p>
 	  </div>
 	</details>
 
